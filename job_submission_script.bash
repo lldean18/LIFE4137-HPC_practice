@@ -8,7 +8,7 @@
 #SBATCH --mem=10g
 #SBATCH --time=01:00:00
 #SBATCH --job-name=bam2fqzip
-#SBATCH --output=/gpfs01/home/USERNAME/slurm-%x-%j.out
+#SBATCH --output=/gpfs01/home/USERNAME/LIFE4137-HPC_practice/slurm-%x-%j.out
 
 # load software modules
 module load samtools-uoneasy/1.18-GCC-12.3.0
