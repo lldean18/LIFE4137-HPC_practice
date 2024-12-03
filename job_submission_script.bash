@@ -5,8 +5,8 @@
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=4
-#SBATCH --mem=10g
-#SBATCH --time=01:00:00
+#SBATCH --mem=1g
+#SBATCH --time=00:05:00
 #SBATCH --job-name=bam2fqzip
 #SBATCH --output=/gpfs01/home/USERNAME/LIFE4137-HPC_practice/slurm-%x-%j.out
 
